@@ -1,0 +1,913 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d97e2943-bf9d-4c9f-9e10-ef1b42d476d0" name="Changes" comment="files created for bonus us">
+      <change afterPath="$PROJECT_DIR$/Docs/Phase2/x_BonusUS/US-30-AvgLendingDurationBook/US-30-AvgLendingDurationBook-SD.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pt/psoft/g1/psoftg1/readermanagement/api/ReaderAverageView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pt/psoft/g1/psoftg1/readermanagement/api/ReaderLendingsAvgPerMonthView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pt/psoft/g1/psoftg1/readermanagement/services/ReaderAverageDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pt/psoft/g1/psoftg1/readermanagement/services/ReaderLendingsAvgPerMonthDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Phase2/RestMapping.md" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Phase2/RestMapping.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Phase2/WP5-Reporting/Ph2-18-GetMonthlyLendingPerReader/Ph2-18-GetMonthlyLendingPerReader.md" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Phase2/WP5-Reporting/Ph2-18-GetMonthlyLendingPerReader/Ph2-18-GetMonthlyLendingPerReader.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Phase2/x_BonusUS/US-30-AvgLendingDurationBook/US-30-AvgLendingDurationBook.md" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Phase2/x_BonusUS/US-30-AvgLendingDurationBook/US-30-AvgLendingDurationBook.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/psoft/g1/psoftg1/auth/api/AuthApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/psoft/g1/psoftg1/auth/api/AuthApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/psoft/g1/psoftg1/auth/api/AuthRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/psoft/g1/psoftg1/auth/api/AuthRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/psoft/g1/psoftg1/authormanagement/api/AuthorCoAuthorBooksView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/psoft/g1/psoftg1/authormanagement/api/AuthorCoAuthorBooksView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/psoft/g1/psoftg1/authormanagement/api/AuthorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/psoft/g1/psoftg1/authormanagement/api/AuthorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/psoft/g1/psoftg1/authormanagement/api/AuthorLendingView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/psoft/g1/psoftg1/authormanagement/api/AuthorLendingView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/psoft/g1/psoftg1/authormanagement/api/AuthorView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/psoft/g1/psoftg1/authormanagement/api/AuthorView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/psoft/g1/psoftg1/authormanagement/api/AuthorViewMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/psoft/g1/psoftg1/authormanagement/api/AuthorViewMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/psoft/g1/psoftg1/authormanagement/api/CoAuthorView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/psoft/g1/psoftg1/authormanagement/api/CoAuthorView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/psoft/g1/psoftg1/authormanagement/infrastructure/repositories/impl/SpringDataAuthorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/psoft/g1/psoftg1/authormanagement/infrastructure/repositories/impl/SpringDataAuthorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/psoft/g1/psoftg1/authormanagement/model/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/psoft/g1/psoftg1/authormanagement/model/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/psoft/g1/psoftg1/authormanagement/model/Bio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/psoft/g1/psoftg1/authormanagement/model/Bio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/psoft/g1/psoftg1/authormanagement/repositories/AuthorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/psoft/g1/psoftg1/authormanagement/repositories/AuthorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/psoft/g1/psoftg1/authormanagement/services/AuthorMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/psoft/g1/psoftg1/authormanagement/services/AuthorMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/psoft/g1/psoftg1/authormanagement/services/AuthorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/psoft/g1/psoftg1/authormanagement/services/AuthorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/psoft/g1/psoftg1/authormanagement/services/AuthorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/psoft/g1/psoftg1/authormanagement/services/AuthorServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/psoft/g1/psoftg1/lendingmanagement/api/LendingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/psoft/g1/psoftg1/lendingmanagement/api/LendingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/psoft/g1/psoftg1/lendingmanagement/infrastructure/repositories/impl/SpringDataLendingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/psoft/g1/psoftg1/lendingmanagement/infrastructure/repositories/impl/SpringDataLendingRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/psoft/g1/psoftg1/shared/api/MapperInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/psoft/g1/psoftg1/shared/api/MapperInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/psoft/g1/psoftg1/shared/model/Name.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/psoft/g1/psoftg1/shared/model/Name.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/psoft/g1/psoftg1/usermanagement/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/psoft/g1/psoftg1/usermanagement/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pt/psoft/g1/psoftg1/authormanagement/model/AuthorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pt/psoft/g1/psoftg1/authormanagement/model/AuthorTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportTestResults" outputFolder="$PROJECT_DIR$/Docs/Phase2/WP4B-Lendings" userTempatePath="" />
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../psoft-project-2024-g1\exportToHTML" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="com.haulmont.jpb.NewClass" />
+        <option value="com.haulmont.jpb.BasicTypeDescriptor" />
+        <option value="com.haulmont.jpb.BasicType" />
+        <option value="com.haulmont.jpb.NewInterface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <branch-grouping />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/pt/psoft/g1/psoftg1/bootstrapping/Bootstrapper.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2f3D0hSzhq8iFZEMFKpudItNeir" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "HTTP Request.generated-requests | #2.executor": "Run",
+    "HTTP Request.generated-requests | #3.executor": "Run",
+    "JUnit.AuthorControllerIntegrationTest.executor": "Run",
+    "JUnit.AuthorControllerIntegrationTest.givenAuthors_whenGetAuthors_thenReturnJsonArray.executor": "Run",
+    "JUnit.AuthorRepositoryIntegrationTest.executor": "Run",
+    "JUnit.AuthorServiceImplIntegrationTest.executor": "Run",
+    "JUnit.AuthorTest.ensureBioMustNotBeOversize.executor": "Run",
+    "JUnit.AuthorTest.ensureNameIsSet.executor": "Run",
+    "JUnit.AuthorTest.ensureNameNotNull.executor": "Run",
+    "JUnit.AuthorTest.executor": "Run",
+    "JUnit.AuthorTest.testCreateViaMapper.executor": "Run",
+    "JUnit.AuthorTest.whenVersionIsStaleItIsNotPossibleToPatch.executor": "Run",
+    "JUnit.BioTest.executor": "Run",
+    "JUnit.BirthDateTest.executor": "Run",
+    "JUnit.BookTest.ensureAuthorsNotNull.executor": "Debug",
+    "JUnit.BookTest.ensureBookCreatedWithMultipleAuthors.executor": "Run",
+    "JUnit.BookTest.ensureIsbnNotNull.executor": "Run",
+    "JUnit.BookTest.executor": "Run",
+    "JUnit.DescriptionTest.ensureDescriptionCanBeNull.executor": "Run",
+    "JUnit.DescriptionTest.executor": "Run",
+    "JUnit.GenreTest.executor": "Run",
+    "JUnit.IsbnTest.ensureChecksum10IsCorrect.executor": "Run",
+    "JUnit.IsbnTest.ensureChecksumIsCorrect.executor": "Run",
+    "JUnit.IsbnTest.ensureIsbn10IsSet.executor": "Run",
+    "JUnit.IsbnTest.executor": "Run",
+    "JUnit.LendingNumberTest.ensureLendingNumberIsSet.executor": "Debug",
+    "JUnit.LendingNumberTest.ensureLendingNumberIsSetWithYearAndSequential.executor": "Run",
+    "JUnit.LendingNumberTest.ensureSequencialCannotBeNegative.executor": "Run",
+    "JUnit.LendingNumberTest.ensureSequentialCannotBeNegative.executor": "Run",
+    "JUnit.LendingNumberTest.executor": "Run",
+    "JUnit.LendingRepositoryIntegrationTest.executor": "Run",
+    "JUnit.LendingRepositoryIntegrationTest.testFindByLendingNumber.executor": "Debug",
+    "JUnit.LendingRepositoryIntegrationTest.testGetAverageDuration.executor": "Run",
+    "JUnit.LendingRepositoryIntegrationTest.testGetCountFromCurrentYear.executor": "Run",
+    "JUnit.LendingRepositoryIntegrationTest.testGetOverdue.executor": "Debug",
+    "JUnit.LendingRepositoryIntegrationTest.testListOutstandingByReaderNumber.executor": "Run",
+    "JUnit.LendingServiceImplTest.executor": "Run",
+    "JUnit.LendingServiceImplTest.findByLendingNumber.executor": "Run",
+    "JUnit.LendingServiceImplTest.testCreate.executor": "Debug",
+    "JUnit.LendingServiceImplTest.testSetReturned.executor": "Run",
+    "JUnit.LendingTest.executor": "Run",
+    "JUnit.LendingTest.testGetBook.executor": "Run",
+    "JUnit.LendingTest.testGetDaysDelayed.executor": "Run",
+    "JUnit.LendingTest.testGetDaysOverDue.executor": "Run",
+    "JUnit.LendingTest.testGetDaysUntilReturn.executor": "Run",
+    "JUnit.LendingTest.testGetLendingNumber.executor": "Run",
+    "JUnit.LendingTest.testGetTitle.executor": "Run",
+    "JUnit.LendingTest.testSetReturned.executor": "Run",
+    "JUnit.NameTest.ensureNameIsSet.executor": "Debug",
+    "JUnit.NameTest.ensureNameMustNotBeOversize.executor": "Run",
+    "JUnit.NameTest.executor": "Run",
+    "JUnit.PsoftG1ApplicationTests.contextLoads.executor": "Run",
+    "JUnit.ReaderTest.executor": "Run",
+    "JUnit.TestAuthApi.executor": "Run",
+    "JUnit.TestAuthApi.testLoginFail.executor": "Run",
+    "JUnit.TestAuthApi.testRegisterSuccess.executor": "Debug",
+    "JUnit.TitleTest.ensureTitleCantEndWithWhitespace.executor": "Run",
+    "JUnit.TitleTest.ensureTitleCantStartWithWhitespace.executor": "Run",
+    "JUnit.TitleTest.executor": "Run",
+    "JUnit.authormanagement in psoft-g1.executor": "Run",
+    "JUnit.lendingmanagement in psoft-g1.executor": "Run",
+    "JUnit.model in psoft-g1.executor": "Run",
+    "JUnit.pt.psoft.g1.psoftg1.lendingmanagement in psoft-g1.executor": "Run",
+    "Maven.psoft-g1 [clean].executor": "Run",
+    "Maven.psoft-g1 [compile].executor": "Run",
+    "Maven.psoft-g1 [install].executor": "Run",
+    "Maven.psoft-g1 [test].executor": "Run",
+    "Maven.psoft-g1 [validate].executor": "Run",
+    "Maven.psoft-g1 [verify].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.PsoftG1Application.executor": "Run",
+    "TestNG.AuthorControllerIntegrationTest.givenAuthors_whenGetAuthors_thenReturnJsonArray.executor": "Run",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
+    "extract.method.default.visibility": "private",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/André Santos/Desktop/universaty/Qualidade de Software/PSOFT",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "database.query.execution",
+    "sql.codeStylePanel.last.previewDialect": "SQL2016",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "h2"
+    ]
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pt.psoft.g1.psoftg1.genremanagement.services" />
+      <recent name="pt.psoft.g1.psoftg1.lendingmanagement.services" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\ISEP\02.02.PSOFT\psoft-project-2024-g1\src\main\java\pt\psoft\g1\psoftg1\readermanagement\services" />
+      <recent name="C:\ISEP\02.02.PSOFT\psoft-project-2024-g1\Docs\Phase2\x_BonusUS\US-29-SearchReadersByEmail" />
+      <recent name="C:\ISEP\02.02.PSOFT\psoft-project-2024-g1\Docs\Phase2\x_BonusUS\US-28-SearchReadersByPhoneNumber" />
+      <recent name="C:\ISEP\02.02.PSOFT\psoft-project-2024-g1\Docs\Phase2\x_BonusUS\US-27-SearchBooksByAuthor" />
+      <recent name="C:\ISEP\02.02.PSOFT\psoft-project-2024-g1\Docs\Phase2\WP5-Reporting\Ph2-16-LendingsPerMonthLast12MonthsByGenre" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\ISEP\02.02.PSOFT\psoft-project-2024-g1\Docs\Phase2\WP5-Reporting\Ph2-16-LendingsPerMonthLast12MonthsByGenre" />
+      <recent name="C:\ISEP\02.02.PSOFT\psoft-project-2024-g1\src\main\resources\config" />
+      <recent name="C:\ISEP\02.02.PSOFT\psoft-project-2024-g1\src\main\resources" />
+      <recent name="C:\ISEP\02.02.PSOFT\psoft-project-2024-g1\src/main/resources/config/library.properties" />
+      <recent name="C:\ISEP\02.02.PSOFT\psoft-project-2024-g1\config" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="pt.psoft.g1.psoftg1.readermanagement.api" />
+      <recent name="pt.psoft.g1.psoftg1.readermanagement.services" />
+      <recent name="pt.psoft.g1.psoftg1.genremanagement.model" />
+      <recent name="pt.psoft.g1.psoftg1.genremanagement.services" />
+      <recent name="pt.psoft.g1.psoftg1.genremanagement.repositories" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="pt.psoft.g1.psoftg1.lendingmanagement.services" />
+      <recent name="pt.psoft.g1.psoftg1.auth.api" />
+      <recent name="pt.psoft.g1.psoftg1.lendingmanagement.model" />
+      <recent name="pt.psoft.g1.psoftg1.bookmanagement.model" />
+      <recent name="pt.psoft.g1.psoftg1.shared.model" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pt.psoft.g1.psoftg1.readermanagement.api" />
+      <recent name="pt.psoft.g1.psoftg1.lendingmanagement.api" />
+      <recent name="pt.psoft.g1.psoftg1.bookmanagement.services" />
+      <recent name="pt.psoft.g1.psoftg1.genremanagement.services" />
+      <recent name="pt.psoft.g1.psoftg1.genremanagement.api" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.PsoftG1Application">
+    <configuration name="AuthorServiceImplIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="psoft-g1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pt.psoft.g1.psoftg1.authormanagement.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pt.psoft.g1.psoftg1.authormanagement.services" />
+      <option name="MAIN_CLASS_NAME" value="pt.psoft.g1.psoftg1.authormanagement.services.AuthorServiceImplIntegrationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LendingRepositoryIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="psoft-g1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pt.psoft.g1.psoftg1.lendingmanagement.repositories.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pt.psoft.g1.psoftg1.lendingmanagement.repositories" />
+      <option name="MAIN_CLASS_NAME" value="pt.psoft.g1.psoftg1.lendingmanagement.repositories.LendingRepositoryIntegrationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="authormanagement in psoft-g1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="psoft-g1" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java/pt/psoft/g1/psoftg1/authormanagement" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="model in psoft-g1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="psoft-g1" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java/pt/psoft/g1/psoftg1/readermanagement/model" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pt.psoft.g1.psoftg1.lendingmanagement in psoft-g1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="psoft-g1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pt.psoft.g1.psoftg1.lendingmanagement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pt.psoft.g1.psoftg1.lendingmanagement" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PsoftG1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="psoft-g1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="pt.psoft.g1.psoftg1.PsoftG1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.pt.psoft.g1.psoftg1.lendingmanagement in psoft-g1" />
+        <item itemvalue="JUnit.authormanagement in psoft-g1" />
+        <item itemvalue="JUnit.AuthorServiceImplIntegrationTest" />
+        <item itemvalue="JUnit.LendingRepositoryIntegrationTest" />
+        <item itemvalue="JUnit.model in psoft-g1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d97e2943-bf9d-4c9f-9e10-ef1b42d476d0" name="Changes" comment="" />
+      <created>1713020647359</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713020647359</updated>
+      <workItem from="1713020648542" duration="101000" />
+      <workItem from="1713435703205" duration="2400000" />
+      <workItem from="1713446570817" duration="26055000" />
+      <workItem from="1713564602564" duration="3363000" />
+      <workItem from="1713823016069" duration="3995000" />
+      <workItem from="1714060497335" duration="26267000" />
+      <workItem from="1714339433880" duration="16368000" />
+      <workItem from="1714468380777" duration="6484000" />
+      <workItem from="1714474886432" duration="4633000" />
+      <workItem from="1714492052280" duration="23597000" />
+      <workItem from="1714520590373" duration="24459000" />
+      <workItem from="1714600793529" duration="6942000" />
+      <workItem from="1714645295390" duration="22707000" />
+      <workItem from="1714742582439" duration="27000" />
+      <workItem from="1714742628298" duration="2995000" />
+      <workItem from="1714745631303" duration="17240000" />
+      <workItem from="1714818260554" duration="27201000" />
+      <workItem from="1714929332628" duration="23542000" />
+      <workItem from="1714988421003" duration="1950000" />
+      <workItem from="1714998102354" duration="30957000" />
+      <workItem from="1715074042750" duration="9719000" />
+      <workItem from="1715207783393" duration="10874000" />
+      <workItem from="1715257836896" duration="5960000" />
+      <workItem from="1715278680475" duration="11413000" />
+      <workItem from="1715872403729" duration="16226000" />
+      <workItem from="1715941620881" duration="4901000" />
+      <workItem from="1716459657179" duration="15788000" />
+      <workItem from="1716975538325" duration="4988000" />
+      <workItem from="1717061748870" duration="25227000" />
+      <workItem from="1717151271967" duration="29071000" />
+      <workItem from="1717422975483" duration="5949000" />
+      <workItem from="1717441846405" duration="7994000" />
+      <workItem from="1717455038575" duration="50613000" />
+      <workItem from="1717583317194" duration="34698000" />
+      <workItem from="1717630635244" duration="14757000" />
+      <workItem from="1717683536622" duration="1234000" />
+      <workItem from="1717687613750" duration="299000" />
+      <workItem from="1717687974414" duration="30551000" />
+      <workItem from="1717758660538" duration="676000" />
+      <workItem from="1717766056266" duration="5695000" />
+      <workItem from="1717780616394" duration="29980000" />
+      <workItem from="1717853475905" duration="33609000" />
+      <workItem from="1717947868526" duration="55100000" />
+      <workItem from="1718052212248" duration="7881000" />
+      <workItem from="1726475231570" duration="578000" />
+      <workItem from="1727212198708" duration="2554000" />
+      <workItem from="1727281808083" duration="594000" />
+      <workItem from="1727285198018" duration="794000" />
+      <workItem from="1727630778981" duration="3970000" />
+      <workItem from="1727647627029" duration="4982000" />
+      <workItem from="1727801054032" duration="773000" />
+      <workItem from="1727978086351" duration="31000" />
+      <workItem from="1728420348091" duration="4021000" />
+      <workItem from="1728585271481" duration="23000" />
+      <workItem from="1729094394532" duration="6760000" />
+    </task>
+    <task id="LOCAL-00074" summary="BookView now provides the author name as string">
+      <option name="closed" value="true" />
+      <created>1717453179159</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1717453179159</updated>
+    </task>
+    <task id="LOCAL-00075" summary="Bootstrapper (Lendings)">
+      <option name="closed" value="true" />
+      <created>1717465500812</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1717465500812</updated>
+    </task>
+    <task id="LOCAL-00076" summary="More and better Postman requests/tests">
+      <option name="closed" value="true" />
+      <created>1717467778113</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1717467778113</updated>
+    </task>
+    <task id="LOCAL-00077" summary="get lendings now sends links. other minor fixes">
+      <option name="closed" value="true" />
+      <created>1717518851497</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1717518851497</updated>
+    </task>
+    <task id="LOCAL-00078" summary="US14 documentation finished">
+      <option name="closed" value="true" />
+      <created>1717525495213</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1717525495213</updated>
+    </task>
+    <task id="LOCAL-00079" summary="Test classes adjusted to changes in domain classes (birthdate format, book photos)">
+      <option name="closed" value="true" />
+      <created>1717525601545</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1717525601545</updated>
+    </task>
+    <task id="LOCAL-00080" summary="Some code optimization on Lendings">
+      <option name="closed" value="true" />
+      <created>1717534141168</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1717534141168</updated>
+    </task>
+    <task id="LOCAL-00081" summary="Work on Docs (US15, US18) and other small fixes">
+      <option name="closed" value="true" />
+      <created>1717536093359</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1717536093359</updated>
+    </task>
+    <task id="LOCAL-00082" summary="Fixes to Author' photo. Tests run, but are now incomplete. getReaderLendingsByIsbn now takes boolean value for returned status">
+      <option name="closed" value="true" />
+      <created>1717552714439</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1717552714439</updated>
+    </task>
+    <task id="LOCAL-00083" summary="findTopAuthorByLendings implemented. Some files missing from last commit.">
+      <option name="closed" value="true" />
+      <created>1717552956092</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1717552956092</updated>
+    </task>
+    <task id="LOCAL-00084" summary="Book now sends links.">
+      <option name="closed" value="true" />
+      <created>1717590140313</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1717590140314</updated>
+    </task>
+    <task id="LOCAL-00085" summary="Updated Postman collection">
+      <option name="closed" value="true" />
+      <created>1717596295021</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1717596295022</updated>
+    </task>
+    <task id="LOCAL-00086" summary="Changed some repo methods from 'like' to 'contains'. Search readers by name now works">
+      <option name="closed" value="true" />
+      <created>1717598617763</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1717598617763</updated>
+    </task>
+    <task id="LOCAL-00087" summary="Fix to US6 - search authors by name">
+      <option name="closed" value="true" />
+      <created>1717604797965</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1717604797965</updated>
+    </task>
+    <task id="LOCAL-00088" summary="missing fixes to author tests">
+      <option name="closed" value="true" />
+      <created>1717605814515</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1717605814515</updated>
+    </task>
+    <task id="LOCAL-00089" summary="Minor fix to ReaderController ListResponse (404 when list is empty)">
+      <option name="closed" value="true" />
+      <created>1717618114670</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1717618114670</updated>
+    </task>
+    <task id="LOCAL-00090" summary="Work on expanding Bootstrapper">
+      <option name="closed" value="true" />
+      <created>1717620598503</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1717620598503</updated>
+    </task>
+    <task id="LOCAL-00091" summary="Work on expanding Bootstrapper">
+      <option name="closed" value="true" />
+      <created>1717624660791</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1717624660791</updated>
+    </task>
+    <task id="LOCAL-00092" summary="US 19 Implemented">
+      <option name="closed" value="true" />
+      <created>1717629340638</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1717629340638</updated>
+    </task>
+    <task id="LOCAL-00093" summary="Moved Genre classes to their own package">
+      <option name="closed" value="true" />
+      <created>1717632906210</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1717632906210</updated>
+    </task>
+    <task id="LOCAL-00094" summary="Fixed MVC principle with GenreLendingsPerMonthDTO. Streamlined some code on Lendings">
+      <option name="closed" value="true" />
+      <created>1717639707155</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1717639707155</updated>
+    </task>
+    <task id="LOCAL-00095" summary="Work on WP4B Docs">
+      <option name="closed" value="true" />
+      <created>1717640906100</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1717640906100</updated>
+    </task>
+    <task id="LOCAL-00096" summary="Added deletes to repos, trying to make work LendingRepositoryIntegrationTest">
+      <option name="closed" value="true" />
+      <created>1717682020665</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1717682020665</updated>
+    </task>
+    <task id="LOCAL-00097" summary="Fixed /coauthors endpoint config">
+      <option name="closed" value="true" />
+      <created>1717682589180</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1717682589180</updated>
+    </task>
+    <task id="LOCAL-00098" summary="Fix on bootstrapper">
+      <option name="closed" value="true" />
+      <created>1717687440109</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1717687440109</updated>
+    </task>
+    <task id="LOCAL-00099" summary="LendingRepositoryIntegrationTest finished, with necessary fixes in other places">
+      <option name="closed" value="true" />
+      <created>1717699972347</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1717699972348</updated>
+    </task>
+    <task id="LOCAL-00100" summary="LendingServiceImplIntegrationTest">
+      <option name="closed" value="true" />
+      <created>1717702496952</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1717702496952</updated>
+    </task>
+    <task id="LOCAL-00101" summary="US 15 - Fixed controller getAverageLendingsDuration, fixed repo test method">
+      <option name="closed" value="true" />
+      <created>1717704770859</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1717704770859</updated>
+    </task>
+    <task id="LOCAL-00102" summary="US14 Reworked">
+      <option name="closed" value="true" />
+      <created>1717720290593</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1717720290593</updated>
+    </task>
+    <task id="LOCAL-00103" summary="Photo code reworked. All creates work. PhotoRepository not needed with Cascade set to All">
+      <option name="closed" value="true" />
+      <created>1717730754866</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1717730754866</updated>
+    </task>
+    <task id="LOCAL-00104" summary="WP4B docs">
+      <option name="closed" value="true" />
+      <created>1717771853424</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1717771853424</updated>
+    </task>
+    <task id="LOCAL-00105" summary="WorkPlanning.md to make sure nothing is forgotten">
+      <option name="closed" value="true" />
+      <created>1717782081071</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1717782081072</updated>
+    </task>
+    <task id="LOCAL-00106" summary="US19 implemented and tested on Postman. View classes need to have Number subclasses (Long, Integer..)">
+      <option name="closed" value="true" />
+      <created>1717820754485</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1717820754485</updated>
+    </task>
+    <task id="LOCAL-00107" summary="Minor fixed that had been overlooked.">
+      <option name="closed" value="true" />
+      <created>1717821034847</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1717821034847</updated>
+    </task>
+    <task id="LOCAL-00108" summary="US30 implemented and tested. US5 almost done (coauthor book link missing). Work on US19 docs">
+      <option name="closed" value="true" />
+      <created>1717892472884</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1717892472885</updated>
+    </task>
+    <task id="LOCAL-00109" summary="Changed averages return type to Double, with 1 decimal">
+      <option name="closed" value="true" />
+      <created>1717894966837</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1717894966837</updated>
+    </task>
+    <task id="LOCAL-00110" summary="Search Readers implemented (US 28/29). H2 database now ignores lettercase.">
+      <option name="closed" value="true" />
+      <created>1717899821777</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1717899821777</updated>
+    </task>
+    <task id="LOCAL-00111" summary="Get/Create/Update Lending returns links formatted to HAL standards">
+      <option name="closed" value="true" />
+      <created>1717974826075</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1717974826077</updated>
+    </task>
+    <task id="LOCAL-00112" summary="Fixes while making Ph1-Lendings Postman collection">
+      <option name="closed" value="true" />
+      <created>1717980661979</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1717980661979</updated>
+    </task>
+    <task id="LOCAL-00113" summary="Coauthor's book's link now shows.">
+      <option name="closed" value="true" />
+      <created>1717988014427</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1717988014427</updated>
+    </task>
+    <task id="LOCAL-00114" summary="Implemented searchBooks">
+      <option name="closed" value="true" />
+      <created>1718020737490</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1718020737490</updated>
+    </task>
+    <task id="LOCAL-00115" summary="Updated GlobalArtifacts to include Photo entity">
+      <option name="closed" value="true" />
+      <created>1718031504801</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1718031504801</updated>
+    </task>
+    <task id="LOCAL-00116" summary="US 26 - Reader Quote implemented and tested">
+      <option name="closed" value="true" />
+      <created>1718036488133</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1718036488133</updated>
+    </task>
+    <task id="LOCAL-00117" summary="Moved IF_MATCH string to ConcurrencyService. Updated Work Planning. Added credit to WebClient classes">
+      <option name="closed" value="true" />
+      <created>1718038002569</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1718038002569</updated>
+    </task>
+    <task id="LOCAL-00118" summary="US 26 - Funny Quote documentation. Minor fix on Readers CD">
+      <option name="closed" value="true" />
+      <created>1718043684825</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1718043684825</updated>
+    </task>
+    <task id="LOCAL-00119" summary="US15, US 16 &amp; US23 Docs finished">
+      <option name="closed" value="true" />
+      <created>1718048373762</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1718048373763</updated>
+    </task>
+    <task id="LOCAL-00120" summary="SearchLending implemented, but it's not right for US 18">
+      <option name="closed" value="true" />
+      <created>1718056272852</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1718056272852</updated>
+    </task>
+    <task id="LOCAL-00121" summary="-docs us 18">
+      <option name="closed" value="true" />
+      <created>1718056852798</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1718056852798</updated>
+    </task>
+    <task id="LOCAL-00122" summary="files created for bonus us">
+      <option name="closed" value="true" />
+      <created>1718057187764</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1718057187764</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="LendingRepositoryIntegrationTest finished, with necessary fixes in other places" />
+    <MESSAGE value="LendingServiceImplIntegrationTest" />
+    <MESSAGE value="US 15 - Fixed controller getAverageLendingsDuration, fixed repo test method" />
+    <MESSAGE value="US14 Reworked" />
+    <MESSAGE value="Photo code reworked. All creates work. PhotoRepository not needed with Cascade set to All" />
+    <MESSAGE value="WP4B docs" />
+    <MESSAGE value="WorkPlanning.md to make sure nothing is forgotten" />
+    <MESSAGE value="US19 implemented and tested on Postman. View classes need to have Number subclasses (Long, Integer..)" />
+    <MESSAGE value="Minor fixed that had been overlooked." />
+    <MESSAGE value="Fixed US 19" />
+    <MESSAGE value="US30 implemented and tested. US5 almost done (coauthor book link missing). Work on US19 docs" />
+    <MESSAGE value="Changed averages return type to Double, with 1 decimal" />
+    <MESSAGE value="Search Readers implemented (US 28/29). H2 database now ignores lettercase." />
+    <MESSAGE value="Get/Create/Update Lending returns links formatted to HAL standards" />
+    <MESSAGE value="Fixes while making Ph1-Lendings Postman collection" />
+    <MESSAGE value="Coauthor's book's link now shows." />
+    <MESSAGE value="Implemented searchBooks" />
+    <MESSAGE value="Updated GlobalArtifacts to include Photo entity" />
+    <MESSAGE value="US 26 - Reader Quote implemented and tested" />
+    <MESSAGE value="Moved IF_MATCH string to ConcurrencyService. Updated Work Planning. Added credit to WebClient classes" />
+    <MESSAGE value="US 26 - Funny Quote documentation. Minor fix on Readers CD" />
+    <MESSAGE value="US15, US 16 &amp; US23 Docs finished" />
+    <MESSAGE value="SearchLending implemented, but it's not right for US 18" />
+    <MESSAGE value="-docs us 18" />
+    <MESSAGE value="files created for bonus us" />
+    <option name="LAST_COMMIT_MESSAGE" value="files created for bonus us" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint type="java-exception">
+          <properties class="org.hibernate.tool.schema.spi.CommandAcceptanceException" package="org.hibernate.tool.schema.spi" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+        <breakpoint type="java-exception">
+          <properties class="org.springframework.dao.InvalidDataAccessApiUsageException" package="org.springframework.dao" />
+          <option name="timeStamp" value="5" />
+        </breakpoint>
+        <breakpoint type="java-exception">
+          <properties class="java.lang.IllegalArgumentException" package="java.lang" />
+          <option name="timeStamp" value="13" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pt/psoft/g1/psoftg1/auth/api/TestAuthApi.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/target/generated-sources/annotations/pt/psoft/g1/psoftg1/authormanagement/services/AuthorMapperImpl.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pt/psoft/g1/psoftg1/readermanagement/services/ReaderServiceImpl.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pt/psoft/g1/psoftg1/lendingmanagement/api/LendingController.java</url>
+          <line>113</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/target/generated-sources/annotations/pt/psoft/g1/psoftg1/bookmanagement/api/BookViewMapperImpl.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pt/psoft/g1/psoftg1/bookmanagement/infrastructure/repositories/impl/SpringDataBookRepository.java</url>
+          <line>102</line>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="pt.psoft.g1.psoftg1.authormanagement.model.Author" memberName="bio" />
+        <PinnedItemInfo parentTag="pt.psoft.g1.psoftg1.shared.model.Photo" memberName="pk" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>
